@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 680;
+}
+.link-navbar{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
+.info{
+     font-family: "Montserrat", sans-serif;
+     font-weight: 700;
+     margin-top: 200px;
+}
+.container-details{
+font-family:"Montserrat", sans-serif;
+border: 1px solid #0000;
+}
+.main-color{
+  color: #08306b;
+}
+.font-montserat-reg{
+  font-family:"Montserrat", sans-serif;
+}
+.name{
+    /* color:#ff014f */
+    font-size: 60px;
+    color: #08306b;
+}
+.info{
+    font-size: 60px;
+}
+h1.title{
+    font-size: 60px;
+    color: #1e2125;
+}
+.details{
+    font-size: 16px;
+    color: #3c3e41;
+}
+.title{
+    color:#08306b;
+    font-size: 50px;
+    font-weight: 700;
+}
+.title-me{
+    color: #1e2125;
+}
+
+/* From Uiverse.io by doniaskima */ 
+.btn-31,
+.btn-31 *,
+.btn-31 :after,
+.btn-31 :before,
+.btn-31:after,
+.btn-31:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-31 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #08306b;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  border-radius: 3px;
+  border-width: 1px;
+  padding: 7px 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-31:disabled {
+  cursor: pointer;
+}
+
+.btn-31:-moz-focusring {
+  outline: auto;
+}
+
+.btn-31 svg {
+  display: block;
+  vertical-align: middle;
+  fill: #fff;   /* keep SVG icons white */
+  stroke: #fff; /* in case icon uses stroke */
+}
+
+.btn-31 [hidden] {
+  display: none;
+}
+
+.btn-31:before {
+  --progress: 100%;
+  background: #fff;
+  -webkit-clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
+}
+
+.btn-31:hover:before {
+  --progress: 0%;
+}
+
+.btn-31 .text-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-31 .text {
+  display: block;
+  font-weight: 900;
+  position: relative;
+  color: #fff;         /* force white */
+  mix-blend-mode: normal; /* FIX: stop blending */
+}
+
+
+.btn-31:hover .text {
+  color: #08306b;
+  -webkit-animation: move-up-alternate 0.3s ease forwards;
+  animation: move-up-alternate 0.3s ease forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(80%);
+  }
+  51% {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(80%);
+  }
+  51% {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+.font-montserat{
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+}
+.card{
+ padding: 1.5rem;
+  background-color: #e5e7eb;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 75px;
+  border-radius: 20px;
+  border: none;
+}
+.skills-icon{
+  height: 10px;
+  width: auto;
+}
+.my-pic{
+  height: 608px;
+}
+.contact-container{
+  margin-bottom: 50px;
+}
+.form-container{
+  padding: 20px 10px;
+  background-color: #ececec;
+  width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 8px;
+  padding-bottom: 10px;
+}
+.btn-submit-contact {
+  padding: 10px;
+  color: #08306b;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: all 0.5s ease; /* smooth transition */
+}
+
+.btn-submit-contact:hover {
+  background-color: #08306b;
+  color: #fff;
+  transform: translateY(-4px); /* goes up slightly */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 8px; /* stronger shadow for effect */
+}
+
+.get_in_touch{
+  text-align: center;
+  font-size: 60px;
+}
+
+.text-portfolio{
+  font-size: 60px;
+}
+.title-whatID{
+  font-size: 60px;
+  color: #08306b;
+}
+
+
+.card-1 {
+  width: 380px;           
+  height: 370px;         
+  background-image: linear-gradient(to right, #FFFFFF, #F0F0F0);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  padding: 20px 25px 25px 25px;
+  overflow: hidden; 
+}
+
+.img-card {
+  width: 100%;
+  height: 240px;        
+  border-radius: 4px;
+  transition: transform 0.7s ease;
+  cursor: pointer;
+}
+
+.img-card:hover {
+  transform: scale(1.02); /* zoom on hover */
+}
+
+
+.like-button {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  height: 30px;
+  width: 100px;
+  border-radius: 16px;
+  border: none;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow:
+    inset -2px -2px 5px rgba(255, 255, 255, 0.2),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    4px 4px 10px rgba(0, 0, 0, 0.4),
+    -2px -2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.like {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.like-icon {
+  fill: #505050;
+  height: 20px;
+  width: 20px;
+  transition: all 0.2s ease-out;
+}
+
+.like-text {
+  color: #505050;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.like-count {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fc4e4e;
+  font-size: 12px;
+  border-left: 2px solid #4e4e4e;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.liked .like-icon {
+  fill: #fc4e4e;
+  animation: enlarge 0.2s ease-out 1;
+}
+
+@keyframes enlarge {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.project-name {
+  display: inline-block;
+  color: #1E2125;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform .25s ease, color .25s ease;
+}
+
+.icon-arrow {
+  margin-left: 6px;
+  font-size: 16px;
+  opacity: 0;                  /* hidden by default */
+  transform: translateY(3px);  /* start slightly down */
+  transition: opacity .25s ease, transform .25s ease;
+}
+
+.project-name:hover {
+  color: #08306b;
+  transform: translateY(-2px) scale(1.05);
+}
+
+.project-name:hover .icon-arrow {
+  opacity: 1;                 /* show on hover */
+  transform: translateY(0);   /* slide up smoothly */
+}
+
+.fw-500{
+  font-weight: 500;
+}
+
+
+.container-wid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .card-wid {
+      background: #fff;
+      padding: 45px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: all 0.4s ease;
+      cursor: pointer;
+    }
+
+    .card-wid:hover {
+      background: #08306b;
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .title-wid {
+      margin: 0 0 10px;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .card-wid .details-wid {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #555;
+      font-size: 16px;
+    }
+
+    .card-wid:hover .details-wid {
+      color: #ddd;
+    }
+
+   
+     .icon-wid {
+      font-size: 2.5rem;
+      margin-bottom: 12px;
+      color: #08306b;
+      transition: color 0.4s ease;
+    }
+    .card-wid:hover .icon-wid {
+      color: #fff;
+    }
+#footer{
+    padding: 40px;
+    background-color: #08306b;
+    color: #fff;
+    margin-top: auto;
+}
+.space {
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+.links {
+  list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}

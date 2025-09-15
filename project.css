@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+*{
+font-family: "Montserrat", sans-serif;
+}
+
+.container-box{
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.title-project{
+    font-weight: 700;
+    color: #0660e7;
+    text-align:center;
+    text-transform: uppercase;
+}
+.img-1{
+    object-fit: cover;
+    height: 300px;
+    border-radius: 4px;
+    transition: transform 0.7s ease;
+}
+
+.img-1:hover{
+    transform: scale(1.02); 
+}
+.f-design{
+    font-size: 16px;
+    font-weight: 500;
+}
+.portfolio-details{
+    width: 90%;
+    font-size: 18px;
+    color: #3c3e41;
+}
+.x-button {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: rgb(234, 54, 54);
+    transition: all 0.4s ease; /* smoother animation for all properties */
+}
+
+.x-button:hover {
+    color: #fff;
+    background-color: rgb(234, 54, 54);
+    transform: scale(1.2); /* reduce scale for a more natural effect */
+}
