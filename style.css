@@ -46,6 +46,7 @@ h1.title{
 .details{
     font-size: 16px;
     color: #3c3e41;
+    text-align: justify;
 }
 .title{
     color:#08306b;
@@ -252,17 +253,17 @@ h1.title{
 
 .card-1 {
   width: 380px;           
-  height: 370px;         
+  height: 400px;         
   background-image: linear-gradient(to right, #FFFFFF, #F0F0F0);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 10px;
-  padding: 20px 25px 25px 25px;
+  padding: 15px 20px 20px 20px;
   overflow: hidden; 
 }
 
 .img-card {
   width: 100%;
-  height: 240px;        
+  height: 280px;        
   border-radius: 4px;
   transition: transform 0.7s ease;
   cursor: pointer;
@@ -304,6 +305,9 @@ h1.title{
   height: 20px;
   width: 20px;
   transition: all 0.2s ease-out;
+}
+.like-icon:hover{
+  cursor: pointer;
 }
 
 .like-text {
@@ -446,4 +450,9 @@ h1.title{
     margin: 0;
     padding: 0;
     cursor: pointer;
+}
+.footer-link:hover{
+  font-weight: 500;
+  color: #b0b0b0;
+  text-decoration: underline;
 }
