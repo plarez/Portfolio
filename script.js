@@ -70,3 +70,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
+window.addEventListener("DOMContentLoaded", () => {
+    const animatedImages = document.querySelectorAll(".animate-img");
+
+    animatedImages.forEach((img, index) => {
+        setTimeout(() => {
+            img.classList.add("active");
+        }, index * 200); // Staggered animation: 0ms, 200ms, 400ms
+    });
+});

@@ -14,7 +14,7 @@ font-family: "Montserrat", sans-serif;
 .title-project{
     font-weight: 700;
     color: #0660e7;
-    text-align:center;
+    text-align:start;
     text-transform: uppercase;
 }
 .img-1{
@@ -108,4 +108,32 @@ font-family: "Montserrat", sans-serif;
   object-fit: cover;
   border-radius: 6px 6px 0 0;
   display: block;
+}
+
+/* Initial state */
+.animate-img {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.5s ease;
+}
+
+/* Different direction for side images */
+.animate-img:nth-child(1) {
+    transform: translateX(-200px);
+}
+.animate-img:nth-child(3) {
+    transform: translateX(200px);
+}
+
+/* When activated */
+.animate-img.active {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
+
+.landscape-img{
+  margin-top: 70px;
+}
+.box-shadow-1{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
