@@ -463,3 +463,31 @@ h1.title{
   height: 100px;
   
 }
+.animate-img {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.5s ease;
+}
+
+/* Different direction for side images */
+.animate-img:nth-child(1) {
+    transform: translateX(-200px);
+}
+.animate-img:nth-child(3) {
+    transform: translateX(200px);
+}
+
+/* When activated */
+.animate-img.active {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
+.resume{
+  object-fit: cover;
+  height:850px ;
+  width: auto;
+  border: 2px solid #08306b;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 50px 50px;
+}
