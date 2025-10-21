@@ -482,12 +482,23 @@ h1.title{
     opacity: 1;
     transform: translateX(0) translateY(0);
 }
-.resume{
-  object-fit: cover;
-  height:850px ;
+.resume {
+  height: 850px;
   width: auto;
+  object-fit: cover;
   border: 2px solid #08306b;
   border-radius: 10px;
   padding-top: 10px;
-  margin: 50px 50px;
+  /* display: block; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Mobile styles (for screens 768px wide or smaller) */
+@media screen and (max-width: 768px) {
+  .resume {
+    height: 350px; /* shrink height */
+    width: 100%;   /* make it fit the container */
+    object-fit: contain; /* avoid cropping */
+  }
 }
